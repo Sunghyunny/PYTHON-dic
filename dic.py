@@ -26,7 +26,7 @@ def divide(a, b):
     return a / b
 
 #5. 다항 덧셈 기능
-def multi_sum(*a):
+def multisum(*a):
     result = 0
     for i in a:
         result = result + i
@@ -46,7 +46,7 @@ def sli():
     print(a[1:3])
 
 #9.리스트의 여러요소 삭제
-def mul_sli():
+def multislice():
     a = [1, 2, 3, 4, 5, 6]
     del a[1:3]
     print(a)
@@ -153,6 +153,7 @@ def baesu():
     while b < a:
         b = b + 1
         if b % 3 == 0:
+            i = 0
             for i in b:
                 i = i + b
     print(b)
@@ -166,7 +167,7 @@ def avr():
     return i / int(b)
 
 #24. 입력값의 개수를 모를 때 평균값 계산
-def avr_none(*score):
+def avrnone(*score):
     result = 0
     for i in score:
         result = result + i
